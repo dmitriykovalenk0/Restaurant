@@ -1,0 +1,43 @@
+.ingredients {
+    min-height: 758px;
+    background: url('../../assets/img/ingredients-bg.png') center/cover no-repeat;
+}
+
+.ingredients__content {
+    float: right;
+    margin: 100px 20px 0 0;
+
+    width: 570px;
+    height: 557px;
+    border: 1px solid #000;
+    background-color: rgba(0, 0, 0, .67);
+}
+
+.ingredients__inner {
+    max-width: 410px;
+
+    text-align: center;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.ingredients__title {
+    font-family: "Yeseva One", sans-serif;
+    font-size: 36px;
+}
+
+.ingredients__decoration {
+    padding: 25px 0 30px;
+}
+
+.ingredients__text {
+    font-family: "Lato", sans-serif;
+}
+
+.ingredients__images {
+    padding-top: 60px;
+}
+
+.ingredients__images img:not(:last-child) {
+    padding-right: 25px;
+}
