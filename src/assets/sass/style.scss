@@ -1,22 +1,9 @@
 @import "vars";
 
+/* Vendor */
+
 
 /* Default styles */
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 40px;
-    color: #fff;
-
-    margin: 0;
-    padding: 0;
-}
 
 *,
 *:before,
@@ -24,9 +11,19 @@ body {
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+
+    margin: 0;
+    padding: 0;
+}
+
 a {
     text-decoration: none;
-    display: inline-block;
 }
 
 ul,
@@ -37,9 +34,10 @@ li {
 }
 
 .container {
-    max-width: 1500px;
+    max-width: 1210px;
     margin: 0 auto;
 }
 
 
 /* Blocks */
+@import "blocks/header";

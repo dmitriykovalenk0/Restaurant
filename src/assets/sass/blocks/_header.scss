@@ -1,41 +1,6 @@
-/* Vendor */
-/* Default styles */
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul,
-li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    max-width: 1210px;
-    margin: 0 auto;
-}
-
-/* Blocks */
 .header {
     min-height: 750px;
-    background: url("../../assets/img/header-bg.png") center/cover no-repeat;
+    background: url('../../assets/img/header-bg.png') center/cover no-repeat;
 }
 
 .header__top {
@@ -53,16 +18,17 @@ li {
 
 .header__nav-item {
     padding-top: 48px;
+
     display: inline-block;
     border-top: 3px solid transparent;
-}
 
-.header__nav-item:not(:last-child) {
-    margin-right: 45px;
-}
+    &:not(:last-child) {
+        margin-right: 45px;
+    }
 
-.header__nav-item:hover {
-    border-color: rgba(255, 255, 255, 0.71);
+    &:hover {
+        border-color: rgba(255, 255, 255, .71);
+    }
 }
 
 .header__nav-link {
@@ -80,6 +46,7 @@ li {
 
 .icon {
     padding-right: 12px;
+
     width: 81px;
     height: 21px;
     color: #dab33e;
@@ -87,16 +54,25 @@ li {
     font-weight: 400;
 }
 
-.icon-twitter::before {
-    content: "\f099";
+.icon-twitter {
+
+    &::before {
+        content: "\f099";
+    }
 }
 
-.icon-youtube::before {
-    content: "\f167";
+.icon-youtube {
+
+    &::before {
+        content: "\f167";
+    }
 }
 
-.icon-facebook::before {
-    content: "\f09a";
+.icon-facebook {
+
+    &::before {
+        content: "\f09a";
+    }
 }
 
 .header__content {
@@ -114,6 +90,7 @@ li {
     font-size: 90px;
     font-weight: 400;
     line-height: 110px;
+
     text-align: center;
 }
 
@@ -123,15 +100,18 @@ li {
 
 .header__btn-black {
     margin-right: 30px;
+
     color: #fff;
     border: 1px solid #000;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, .6);
+
     padding: 23px 52px;
 }
 
 .header__btn-white {
     color: #fff;
     border: 1px solid #fff;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, .3);
+
     padding: 23px 52px;
 }
