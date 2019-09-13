@@ -1,0 +1,35 @@
+.about {
+    background: url('../../assets/img/section__about-bg.png') center/cover no-repeat;
+    min-height: 710px;
+}
+
+.about__content {
+    min-height: 710px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about__content figcaption {
+    max-width: 410px;
+    text-align: center;
+}
+
+.about__title {
+    color: #cc9900;
+    font-family: "Yeseva One";
+    font-size: 36px;
+}
+
+.about__decoration {
+    padding: 20px 0 25px;
+}
+
+.about__text {
+    color: #4c4c4c;
+    font-family: Lato;
+}
+
+.about__img {
+    padding: 50px 0 0 70px;
+}

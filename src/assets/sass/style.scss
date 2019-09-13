@@ -33,6 +33,10 @@ li {
     padding: 0;
 }
 
+figure {
+    margin: 0;
+}
+
 .container {
     max-width: 1210px;
     margin: 0 auto;
@@ -41,3 +45,4 @@ li {
 
 /* Blocks */
 @import "blocks/header";
+@import "blocks/section-about";
