@@ -217,3 +217,54 @@ figure {
 .ingredients__images img:not(:last-child) {
     padding-right: 25px;
 }
+
+.menu {
+    min-height: 994px;
+    background: url("../../assets/img/menu-bg.png") center/cover no-repeat;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 758px;
+    background: url("../../assets/img/reviews-bg.png") center/cover no-repeat;
+}
+
+.reviews__content {
+    width: 770px;
+    height: 557px;
+    border: 1px solid #000;
+    background-color: rgba(0, 0, 0, 0.67);
+}
+
+.reviews__inner {
+    max-width: 625px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.reviews__title {
+    font-family: "Yeseva One", sans-serif;
+    font-size: 36px;
+}
+
+.reviews__decoration {
+    padding: 25px 0 30px;
+}
+
+.reviews__text {
+    color: #dde0df;
+    font-family: "Gentium Book Basic", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.reviews__text span {
+    font-family: Lato;
+    font-size: 18px;
+    display: block;
+    padding-top: 20px;
+}
