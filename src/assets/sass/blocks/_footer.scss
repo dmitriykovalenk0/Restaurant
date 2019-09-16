@@ -1,0 +1,77 @@
+.footer {
+    min-height: 320px;
+    background-color: #191919;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    padding-top: 60px;
+}
+
+.footer__about {
+    max-width: 345px;
+}
+
+.footer__opened {
+    max-width: 225px;
+}
+
+.footer__item {
+    display: inline-block;
+}
+
+.footer__item:not(:first-child) {
+    padding-left: 5px;
+}
+
+.footer__opened-link {
+
+    &::before {
+        content: "\f1f4";
+        font-family: 'icomoon';
+        color: #fff;
+    }
+}
+
+.footer__location {
+    max-width: 232px;
+}
+
+.footer__location-link {
+
+    &::before {
+        content: "\f09a";
+        font-family: 'icomoon';
+        color: #fff;
+    }
+}
+
+.footer__list {
+    padding-top: 42px;
+}
+
+.footer__title {
+    color: #fefefe;
+    font-family: "Yeseva One";
+    font-size: 21px;
+    line-height: 24px;
+}
+
+.footer__decoration {
+    padding: 20px 0 25px;
+}
+
+.footer__text {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer__text span {
+    font-weight: 700;
+}

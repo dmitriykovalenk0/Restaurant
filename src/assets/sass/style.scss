@@ -1,6 +1,8 @@
 @import "vars";
 
 /* Vendor */
+@import "vendor/fonts";
+@import "vendor/jquery.formstyler";
 
 
 /* Default styles */
@@ -49,3 +51,5 @@ figure {
 @import "blocks/section-ingredients";
 @import "blocks/section-menu";
 @import "blocks/section-reviews";
+@import "blocks/section-reservation";
+@import "blocks/footer";

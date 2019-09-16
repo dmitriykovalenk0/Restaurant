@@ -1,0 +1,164 @@
+.reservation {
+    min-height: 710px;
+    background: url('../../assets/img/section__about-bg.png') center/cover no-repeat;
+}
+
+.reservation__content {
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-top: 100px;
+}
+
+.reservation__content figcaption {
+    max-width: 420px;
+    text-align: center;
+}
+
+.reservation__title {
+    color: #cc9900;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    line-height: 24px;
+}
+
+.reservation__decoration {
+    padding: 25px 0 30px;
+}
+
+.reservation__text {
+    color: #4c4c4c;
+    font-family: Lato;
+}
+
+.reservation__text span {
+    display: block;
+    padding-top: 15px;
+}
+
+.rerervation__form {
+    padding-top: 40px;
+    width: 430px;
+}
+
+.form__flex {
+    display: flex;
+    justify-content: space-between;
+
+    &:first-child {
+        padding-bottom: 25px;
+    }
+}
+
+.form__flex div {
+    width: 200px;
+}
+
+.rerervation__form label {
+    color: #c9a131;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+
+    float: left;
+}
+
+
+.rerervation__form input,
+.jq-selectbox {
+    width: 200px;
+    height: 36px;
+    border: 1px solid #c8c6c6;
+    background-color: #ffffff;
+
+    &:focus {
+        outline: 1px solid #c89f2d;
+    }
+}
+
+.rerervation__form .jq-selectbox__select {
+    height: 40px;
+    border: 1px solid #e6e6e6;
+
+    padding-left: 17px;
+}
+
+.rerervation__form .jq-selectbox__trigger-arrow:before {
+    content: "\f107";
+    font-family: 'icomoon';
+    color: #6b6a6a;
+
+    position: absolute;
+    right: 16px;
+    top: 3px;
+}
+
+.rerervation__form .jq-selectbox__dropdown {
+    width: 100%;
+    margin: 2px 0 0;
+    padding: 0;
+    border: 1px solid #e6e6e6;
+    background: #FFF;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+}
+
+.rerervation__form .jq-selectbox li {
+    min-height: 18px;
+    padding: 5px 17px 6px;
+    color: #231F20;
+}
+
+.rerervation__form .jq-selectbox li.selected {
+    background-color: #A3ABB1;
+    color: #FFF;
+}
+
+.rerervation__form .jq-selectbox li:hover {
+    background-color: #c9a131;
+    color: #FFF;
+}
+
+.rerervation__form .jq-selectbox li.disabled {
+    color: #AAA;
+}
+
+.rerervation__form .jq-selectbox li.disabled:hover {
+    background: none;
+}
+
+.rerervation__form .jq-selectbox li.optgroup {
+    font-weight: bold;
+}
+
+.rerervation__form .jq-selectbox li.optgroup:hover {
+    background: none;
+    color: #231F20;
+    cursor: default;
+}
+
+.rerervation__form .jq-selectbox li.option {
+    padding-left: 25px;
+}
+
+.rerervation__form input::placeholder {
+    color: #7c7c7c;
+    font-family: "Open Sans";
+    font-style: italic;
+
+    padding-left: 15px;
+}
+
+.rerervation__form button {
+    width: 200px;
+    height: 36px;
+    border: 1px solid #c89f2d;
+    background-color: #c89f2d;
+
+    color: #ffffff;
+    outline: none;
+    font-family: "Open Sans";
+}
+
+.reservation__btn {
+    padding-top: 12px;
+}
