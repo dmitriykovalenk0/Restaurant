@@ -2,3 +2,84 @@
     min-height: 994px;
     background: url('../../assets/img/menu-bg.png') center/cover no-repeat;
 }
+
+.menu__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 100px 110px;
+}
+
+.menu__variant {
+    max-width: 430px;
+    text-align: center;
+}
+
+.menu_salads {
+    padding-top: 97px;
+}
+
+.menu__decoration {
+    padding-top: 20px;
+}
+
+.menu__item {
+    padding-top: 30px;
+}
+
+.menu__item--special {
+    padding: 10px;
+    margin-top: 25px;
+
+    border: 1px solid #c89f2d;
+
+    position: relative;
+
+    &::after {
+        content: 'Special';
+        color: #f8fafa;
+        font-family: Lato;
+        font-size: 14px;
+
+        width: 69px;
+        height: 22px;
+        background-color: #c89f2d;
+
+        padding: 0 13px;
+
+        position: absolute;
+        top: -23px;
+        right: 0;
+    }
+}
+
+.menu__title {
+    color: #cc9900;
+    font-family: "Yeseva One";
+    font-size: 36px;
+}
+
+.menu__item-name {
+    padding-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+
+    color: #c89f2d;
+    font-family: "Yeseva One";
+    font-size: 21px;
+
+    border-bottom: 1px solid #c89f2d;
+
+}
+
+.menu__item-description {
+    padding-top: 10px;
+
+    display: block;
+    color: #4c4c4c;
+    font-family: Lato;
+    font-size: 16px;
+
+}
